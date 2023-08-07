@@ -1,0 +1,46 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  header {
+    padding: 20px;
+  }
+  .filter h2 {
+    font-size: 17px;
+  } 
+  .eco,
+  .famille,
+  .romance,
+  .pet {
+    margin-left: 15px;
+  }
+  .location {
+    flex-direction: column-reverse;
+    padding-top: 40px;  
+  }
+  #bloc_populaire {
+    margin-bottom: 100px;
+    width: 100%;
+    height: 650px;
+  }
+  #bloc_populaire h2, #bloc_hebergement h2 {
+    padding-left: 7px ;
+  }  
+  .stars{
+    margin-top: -16px;
+  }
+  #bloc_hebergement{
+    width: 100%;
+  }  
+  #bloc_activites h2{
+    margin-left: 32px;
+  }
+  .cards p{
+    font-size: 10px;
+    padding-left: 7px;
+  }
+  .card_2{
+    margin-bottom: 10px;
+    height: 170px;
+  }
+  .longchamp img{
+    height: 130px;
+  }
+}
